@@ -73,8 +73,15 @@ export default function App() {
 					</a>
 				</div>
 				<div className="flex flex-col gap-2 justify-center items-center text-xs font-extralight !tracking-[.3em]">
-					<a>rj@phenomstudios.ca</a>
-					<p>416.722.0731</p>
+					<a
+						href="mailto:rj@phenomstudios.ca"
+						className="hover:underline"
+					>
+						rj@phenomstudios.ca
+					</a>
+					<a href="tel:+14167220731" className="hover:underline">
+						416.722.0731
+					</a>
 				</div>
 			</div>
 
