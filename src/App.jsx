@@ -1,6 +1,5 @@
-import { Link, useLocation } from 'react-router-dom';
-import Logo from './assets/PhenomStudiosWordmarkWhite.png';
-import { LuSquareCode, LuGamepad2 } from 'react-icons/lu';
+import { useLocation } from 'react-router-dom';
+import Logo from './assets/wordmark.png';
 import Webdev from './pages/Webdev.jsx';
 import Gamedev from './pages/Gamedev.jsx';
 
